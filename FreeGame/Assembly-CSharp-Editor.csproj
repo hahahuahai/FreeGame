@@ -71,6 +71,12 @@
     <Compile Include="Assets\LoxodonFramework\Editor\Localizations\LocalizationSourceEditor.cs" />
     <Compile Include="Assets\LoxodonFramework\Editor\Views\VariableArrayDrawer.cs" />
     <Compile Include="Assets\LoxodonFramework\Editor\Views\VariableDrawer.cs" />
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -82,6 +88,57 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.UIWidgets.Editor">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.UIWidgets.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Connect.Share.Editor">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InteractiveTutorials.Core">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.UIWidgets">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.UIWidgets.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.InteractiveTutorialsFramework">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.024">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.024.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -274,6 +331,12 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/PackageCache/com.unity.connect.share@1.0.9-preview/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

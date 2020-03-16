@@ -454,6 +454,12 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Scripts\UI\GameSceneUILauncher.cs" />
+    <Compile Include="Assets\Scripts\UI\StartSceneUILauncher.cs" />
+    <Compile Include="Assets\Scripts\UI\ViewModels\GameMainViewModel.cs" />
+    <Compile Include="Assets\Scripts\UI\ViewModels\StartViewModel.cs" />
+    <Compile Include="Assets\Scripts\UI\Views\GameMainWindow.cs" />
+    <Compile Include="Assets\Scripts\UI\Views\StartWindow.cs" />
     <None Include="Assets\LoxodonFramework\Examples\Resources\Shaders\FrameAnimation\Default.shader" />
     <None Include="Assets\LoxodonFramework\Tutorials\Resources\application.properties.txt" />
     <None Include="Assets\LoxodonFramework\Docs\XLua\Readme.txt" />
@@ -479,6 +485,57 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.UIWidgets.Editor">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.UIWidgets.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Connect.Share.Editor">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InteractiveTutorials.Core">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.UIWidgets">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.UIWidgets.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.InteractiveTutorialsFramework">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.024">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.024.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -656,6 +713,9 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/PackageCache/com.unity.connect.share@1.0.9-preview/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
