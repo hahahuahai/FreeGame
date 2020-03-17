@@ -1,18 +1,17 @@
-﻿using System.Collections;
+﻿using Loxodon.Framework.Localizations;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class EventsNames : MonoBehaviour
+namespace FreeGame
 {
-    // Start is called before the first frame update
-    void Start()
+    public static class EventsNames
     {
-        
-    }
+        //纯UI之间的事件
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+
+
+
+        //Game逻辑相关的事件
+        public readonly static string UI_Score = "UI_Score";
     }
 }

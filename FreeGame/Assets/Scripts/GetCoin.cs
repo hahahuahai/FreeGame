@@ -2,28 +2,31 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class GetCoin : MonoBehaviour
+namespace FreeGame
 {
-    private IMessenger messenger;
-
-    private void Start()
+    public class GetCoin : MonoBehaviour
     {
-        this.messenger = Messenger.Default;
-    }
-    // Update is called once per frame
-    void Update()
-    {
+        private IMessenger messenger;
 
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.name == "RollerBall")
+        private void Start()
         {
-            this.messenger.Publish("scored", 1);
-            GameObject.Destroy(gameObject);
+            this.messenger = Messenger.Default;
         }
-    } 
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.name == "RollerBall")
+            {
+                this.messenger.Publish(EventsNames.UI_Score, 1);
+                GameObject.Destroy(gameObject);
+            }
+        }
+
+    }
 
 }

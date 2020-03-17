@@ -29,7 +29,7 @@ namespace FreeGame
         {
             Messenger = messenger;
             scoreModel = new ScoreModel();
-            this.subscription = Messenger.Subscribe<int>("scored", changeScore);
+            this.subscription = Messenger.Subscribe<int>(EventsNames.UI_Score, changeScore);
             //this.updateScore = new InteractionRequest<int>(this);
             scoreModel.Score = 0;
         }
