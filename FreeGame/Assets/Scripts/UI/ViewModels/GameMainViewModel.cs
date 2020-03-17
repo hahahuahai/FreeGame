@@ -1,18 +1,45 @@
-﻿using System.Collections;
+﻿using Loxodon.Framework.Interactivity;
+using Loxodon.Framework.Messaging;
+using Loxodon.Framework.ViewModels;
+using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
 
-public class GameMainViewModel : MonoBehaviour
+namespace FreeGame
 {
-    // Start is called before the first frame update
-    void Start()
+    public class GameMainViewModel : ViewModelBase
     {
-        
+        private ScoreModel scoreModel;
+        private InteractionRequest<int> updateScore;
+        private IMessenger messenger;
+        private IDisposable subscription;
+        public InteractionRequest<int> UpdateScore
+        {
+            get { return this.updateScore; }
+        }
+
+        public ScoreModel ScoreModel
+        {
+            get { return this.scoreModel; }
+        }
+
+        public GameMainViewModel(IMessenger messenger)
+        {
+            Messenger = messenger;
+            scoreModel = new ScoreModel();
+            this.subscription = Messenger.Subscribe<int>("scored", changeScore);
+            //this.updateScore = new InteractionRequest<int>(this);
+            scoreModel.Score = 0;
+        }
+
+        private void changeScore(int score)
+        {
+            scoreModel.Score += score;
+        }
+
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

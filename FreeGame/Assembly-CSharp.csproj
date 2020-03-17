@@ -454,8 +454,10 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Scripts\Common\EventsNames.cs" />
     <Compile Include="Assets\Scripts\GetCoin.cs" />
     <Compile Include="Assets\Scripts\UI\GameSceneUILauncher.cs" />
+    <Compile Include="Assets\Scripts\UI\Models\ScoreModel.cs" />
     <Compile Include="Assets\Scripts\UI\StartSceneUILauncher.cs" />
     <Compile Include="Assets\Scripts\UI\ViewModels\GameMainViewModel.cs" />
     <Compile Include="Assets\Scripts\UI\ViewModels\StartViewModel.cs" />
