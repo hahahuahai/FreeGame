@@ -1440,10 +1440,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1179570897, guid: afb7e6a2f4beee443b171b235dbe2fa3, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afb7e6a2f4beee443b171b235dbe2fa3, type: 3}
 --- !u!4 &1179570894 stripped
@@ -2481,9 +2477,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e004fefca5c7ba44d9c5ffd46fdee2ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MovePower: 4
+  m_MovePower: 100
   m_UseTorque: 1
-  m_MaxAngularVelocity: 25
+  m_MaxAngularVelocity: 100
   m_JumpPower: 2.5
 --- !u!54 &2061790546
 Rigidbody:
@@ -2588,6 +2584,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2080873453}
+  - component: {fileID: 2080873454}
   m_Layer: 0
   m_Name: Coins
   m_TagString: Untagged
@@ -2630,6 +2627,18 @@ Transform:
   m_Father: {fileID: 1503060137}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2080873454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080873452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4c361fd845d8e243ad21fa77d89886b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2102862836
 GameObject:
   m_ObjectHideFlags: 0

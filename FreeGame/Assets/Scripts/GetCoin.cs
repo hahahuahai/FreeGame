@@ -1,4 +1,5 @@
-﻿using Loxodon.Framework.Messaging;
+﻿using Loxodon.Framework.Asynchronous;
+using Loxodon.Framework.Messaging;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,7 @@ namespace FreeGame
 {
     public class GetCoin : MonoBehaviour
     {
+        public int RebirthTime;//金币重生时间，秒。
         private IMessenger messenger;
 
         private void Start()
@@ -23,8 +25,14 @@ namespace FreeGame
             if (other.gameObject.name == "RollerBall")
             {
                 this.messenger.Publish(EventsNames.UI_Score, 1);
-                GameObject.Destroy(gameObject);
+                CoroutineTask coinStatusTask = new CoroutineTask(CoinStatusController());
             }
+        }
+        IEnumerator CoinStatusController()
+        {
+            gameObject.SetActive(false);
+            yield return new WaitForSeconds(RebirthTime);
+            gameObject.SetActive(true);
         }
 
     }
