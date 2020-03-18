@@ -93,6 +93,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RebirthTime: 2
+  PlayerName: Player
 --- !u!65 &1179570897
 BoxCollider:
   m_ObjectHideFlags: 0

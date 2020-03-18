@@ -8,6 +8,7 @@ namespace FreeGame
     public class GetCoin : MonoBehaviour
     {
         public int RebirthTime;//金币重生时间，秒。
+        public string PlayerName;
         private IMessenger messenger;
 
         private void Start()
@@ -22,7 +23,7 @@ namespace FreeGame
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.name == "RollerBall")
+            if (other.gameObject.name == PlayerName)
             {
                 this.messenger.Publish(EventsNames.UI_Score, 1);
                 CoroutineTask coinStatusTask = new CoroutineTask(CoinStatusController());
