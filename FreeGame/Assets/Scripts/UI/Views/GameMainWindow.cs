@@ -32,7 +32,7 @@ namespace FreeGame
 
         private void ScoreModel_PropertyChanged(object sender, PropertyChangedEventArgs e)
         {            
-            scoreText.text = "得分:" + this.gameMainViewModel.ScoreModel.Score;
+            scoreText.text = "金钱:" + this.gameMainViewModel.ScoreModel.Score;
         }
     }
 
