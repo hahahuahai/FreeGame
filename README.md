@@ -4,6 +4,18 @@
 
 
 
+### 使用到的开源插件或者项目
+
+[XlsxToLua](https://github.com/zhangqi-ulua/XlsxToLua)
+
+
+
+
+
+
+
+
+
 ### TODO
 
 1. 完善NPCDialogWindow的逻辑，v和vm。
