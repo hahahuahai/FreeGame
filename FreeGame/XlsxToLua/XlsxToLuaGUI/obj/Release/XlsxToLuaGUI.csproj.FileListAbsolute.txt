@@ -1,0 +1,9 @@
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLuaGUI\bin\Release\XlsxToLuaGUI.exe
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLuaGUI\bin\Release\XlsxToLuaGUI.pdb
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLuaGUI\obj\Release\XlsxToLuaGUI.csprojAssemblyReference.cache
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLuaGUI\obj\Release\XlsxToLuaGUI.MainForm.resources
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLuaGUI\obj\Release\XlsxToLuaGUI.Properties.Resources.resources
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLuaGUI\obj\Release\XlsxToLuaGUI.csproj.GenerateResource.cache
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLuaGUI\obj\Release\XlsxToLuaGUI.csproj.CoreCompileInputs.cache
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLuaGUI\obj\Release\XlsxToLuaGUI.exe
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLuaGUI\obj\Release\XlsxToLuaGUI.pdb

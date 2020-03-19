@@ -1,0 +1,9 @@
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLua\bin\Debug\XlsxToLua.exe
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLua\bin\Debug\XlsxToLua.pdb
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLua\bin\Debug\LitJson.dll
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLua\bin\Debug\MySql.Data.dll
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLua\obj\Debug\XlsxToLua.csprojAssemblyReference.cache
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLua\obj\Debug\XlsxToLua.csproj.CoreCompileInputs.cache
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLua\obj\Debug\XlsxToLua.csproj.CopyComplete
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLua\obj\Debug\XlsxToLua.exe
+E:\迅雷下载\XlsxToLua-master\XlsxToLua-master\XlsxToLua\obj\Debug\XlsxToLua.pdb
