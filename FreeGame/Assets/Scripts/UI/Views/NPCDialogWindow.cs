@@ -1,20 +1,21 @@
-﻿using System.Collections;
+﻿using Loxodon.Framework.Views;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 namespace FreeGame
 {
-    public class NPCDialogWindow : MonoBehaviour
+    public class NPCDialogWindow : Window
     {
-        // Start is called before the first frame update
-        void Start()
+        public Text NpcTalkerText;
+        public Text TalkContentText;
+        public Button ComfirmButton;
+        public Button CancelButton;
+
+        protected override void OnCreate(IBundle bundle)
         {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
+            
         }
     }
 

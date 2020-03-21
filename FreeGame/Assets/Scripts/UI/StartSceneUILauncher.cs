@@ -10,14 +10,12 @@ namespace FreeGame
 {
     public class StartSceneUILauncher : MonoBehaviour
     {
+        public GlobalWindowManager windowManager;
         private ApplicationContext applicationContext;
         private void Awake()
         {
-            GlobalWindowManager windowManager = FindObjectOfType<GlobalWindowManager>();
-            if (windowManager == null)
-            {
-                Debug.Log("没有找到GlobalWindowManager");
-            }
+
+
             applicationContext = Context.GetApplicationContext();
             IServiceContainer container = applicationContext.GetContainer();
             BindingServiceBundle bundle = new BindingServiceBundle(applicationContext.GetContainer());
@@ -32,16 +30,25 @@ namespace FreeGame
             WindowContainer windowContainer = WindowContainer.Create("MAIN");
 
             IUIViewLocator locator = applicationContext.GetService<IUIViewLocator>();
-            StartWindow startWindow = locator.LoadWindow<StartWindow>(windowContainer, "Prefabs/UI/StartWindow");
+
+            AddAllWindows(windowContainer, locator);
+
+            StartWindow startWindow = windowManager.Find<StartWindow>();
             startWindow.Create();
             startWindow.Show();
 
         }
 
-        // Update is called once per frame
-        void Update()
+        private void AddAllWindows(WindowContainer windowContainer, IUIViewLocator locator)
         {
+            windowManager = FindObjectOfType<GlobalWindowManager>();
+            if (windowManager == null)
+            {
+                Debug.Log("没有找到GlobalWindowManager");
+            }
 
+            //添加场景中所需要的window
+            windowManager.Add(locator.LoadWindow<StartWindow>(windowContainer, "Prefabs/UI/StartWindow"));
         }
     }
 

@@ -30,4 +30,6 @@ namespace Loxodon.Framework.Views
     public class GlobalWindowManager : GlobalWindowManagerBase
     {
     }
+
+
 }

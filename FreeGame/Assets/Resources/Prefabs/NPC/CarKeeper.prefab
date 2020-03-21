@@ -1470,6 +1470,7 @@ GameObject:
   - component: {fileID: 9579096}
   - component: {fileID: 5426510}
   - component: {fileID: 13615390}
+  - component: {fileID: 548861446}
   m_Layer: 0
   m_Name: CarKeeper
   m_TagString: Untagged
@@ -1537,12 +1538,25 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149790}
   m_Material: {fileID: 13400000, guid: c2815a7ab32e42c4bb42f59caacb8ec1, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.3
-  m_Height: 1.6
+  m_Radius: 1.2590216
+  m_Height: 2.5180445
   m_Direction: 1
-  m_Center: {x: 0, y: 0.8, z: 0}
+  m_Center: {x: 0.000000011949889, y: 0.799999, z: 0.9590008}
+--- !u!114 &548861446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5ca1bfa6af73244aa8cb5c9e2e038b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerName: Player
 --- !u!1 &150244
 GameObject:
   m_ObjectHideFlags: 0

@@ -30,6 +30,12 @@ namespace FreeGame
             {
                 Debug.LogError("This " + (typeof(T)).ToString() + "Singleton Instance is not null!!!");
             }
+            Init();
+        }
+
+        public virtual void Init()
+        {
+
         }
     }
 

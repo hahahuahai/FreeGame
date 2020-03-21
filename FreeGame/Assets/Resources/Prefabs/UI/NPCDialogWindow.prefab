@@ -95,7 +95,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5295851627598285622
 RectTransform:
   m_ObjectHideFlags: 0
@@ -152,6 +152,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02c8c989968538448be4779d160dbfa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  windowType: 2
+  NpcTalkerText: {fileID: 5295851627771426514}
+  TalkContentText: {fileID: 5295851628939804889}
+  ComfirmButton: {fileID: 5295851628002723889}
+  CancelButton: {fileID: 5295851628041936750}
 --- !u!1 &5295851627599283188
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,7 +320,7 @@ GameObject:
   - component: {fileID: 5295851628002723888}
   - component: {fileID: 5295851628002723889}
   m_Layer: 0
-  m_Name: AgreeButton
+  m_Name: ComfirmButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -507,7 +507,7 @@ Transform:
   m_Children:
   - {fileID: 35331018}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &171831899
 MonoBehaviour:
@@ -727,7 +727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 944af62532ebe4b4dbb12e7c7288aaf3, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 944af62532ebe4b4dbb12e7c7288aaf3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -797,30 +797,6 @@ PrefabInstance:
     - target: {fileID: 408730, guid: af9d5700383ca12408800833a5e1c8a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 13615390, guid: af9d5700383ca12408800833a5e1c8a1, type: 3}
-      propertyPath: m_Radius
-      value: 1.2590216
-      objectReference: {fileID: 0}
-    - target: {fileID: 13615390, guid: af9d5700383ca12408800833a5e1c8a1, type: 3}
-      propertyPath: m_Center.x
-      value: 0.000000011949889
-      objectReference: {fileID: 0}
-    - target: {fileID: 13615390, guid: af9d5700383ca12408800833a5e1c8a1, type: 3}
-      propertyPath: m_Center.z
-      value: 0.9590008
-      objectReference: {fileID: 0}
-    - target: {fileID: 13615390, guid: af9d5700383ca12408800833a5e1c8a1, type: 3}
-      propertyPath: m_Height
-      value: 2.5180445
-      objectReference: {fileID: 0}
-    - target: {fileID: 13615390, guid: af9d5700383ca12408800833a5e1c8a1, type: 3}
-      propertyPath: m_Center.y
-      value: 0.799999
-      objectReference: {fileID: 0}
-    - target: {fileID: 13615390, guid: af9d5700383ca12408800833a5e1c8a1, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af9d5700383ca12408800833a5e1c8a1, type: 3}
@@ -938,7 +914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3664ae3aca3ae7b44ae30321874bf19e, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3664ae3aca3ae7b44ae30321874bf19e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1265,7 +1241,7 @@ Transform:
   m_Children:
   - {fileID: 548861444}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1138134985
 PrefabInstance:
@@ -2035,10 +2011,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1220512697}
-  - {fileID: 2080873453}
   - {fileID: 1816766608}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1503797222
 PrefabInstance:
@@ -2282,7 +2257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 369bef64d6f6b9346bd0561344c8edc3, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 369bef64d6f6b9346bd0561344c8edc3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2334,7 +2309,7 @@ Transform:
   - {fileID: 1278374321}
   - {fileID: 207402832}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1993207547
 PrefabInstance:
@@ -2532,7 +2507,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080873452}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2557,8 +2532,8 @@ Transform:
   - {fileID: 630346118}
   - {fileID: 134313587}
   - {fileID: 813931519}
-  m_Father: {fileID: 1503060137}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2080873454
 MonoBehaviour:
