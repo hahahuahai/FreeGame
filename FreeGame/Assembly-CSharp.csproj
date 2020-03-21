@@ -454,6 +454,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Scripts\Common\CSV\CsvUtil.cs" />
     <Compile Include="Assets\Scripts\Common\EventsNames.cs" />
     <Compile Include="Assets\Scripts\Common\SingletonMono.cs" />
     <Compile Include="Assets\Scripts\Common\SingletonNoMono.cs" />
@@ -462,8 +463,10 @@
     <Compile Include="Assets\Scripts\UI\Models\ScoreModel.cs" />
     <Compile Include="Assets\Scripts\UI\StartSceneUILauncher.cs" />
     <Compile Include="Assets\Scripts\UI\ViewModels\GameMainViewModel.cs" />
+    <Compile Include="Assets\Scripts\UI\ViewModels\NPCDialogViewModel.cs" />
     <Compile Include="Assets\Scripts\UI\ViewModels\StartViewModel.cs" />
     <Compile Include="Assets\Scripts\UI\Views\GameMainWindow.cs" />
+    <Compile Include="Assets\Scripts\UI\Views\NPCDialogWindow.cs" />
     <Compile Include="Assets\Scripts\UI\Views\StartWindow.cs" />
     <None Include="Assets\LoxodonFramework\Examples\Resources\Shaders\FrameAnimation\Default.shader" />
     <None Include="Assets\LoxodonFramework\Tutorials\Resources\application.properties.txt" />

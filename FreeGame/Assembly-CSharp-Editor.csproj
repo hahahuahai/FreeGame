@@ -71,6 +71,7 @@
     <Compile Include="Assets\LoxodonFramework\Editor\Localizations\LocalizationSourceEditor.cs" />
     <Compile Include="Assets\LoxodonFramework\Editor\Views\VariableArrayDrawer.cs" />
     <Compile Include="Assets\LoxodonFramework\Editor\Views\VariableDrawer.cs" />
+    <Compile Include="Assets\Scripts\Common\CSV\Editor\TestCsvUtil.cs" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
