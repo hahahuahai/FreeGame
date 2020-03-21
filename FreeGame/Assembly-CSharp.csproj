@@ -454,11 +454,14 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
-    <Compile Include="Assets\Scripts\Common\CSV\CsvUtil.cs" />
+    <Compile Include="Assets\Scripts\Common\CSV\CsvHelper.cs" />
+    <Compile Include="Assets\Scripts\Common\CSV\GameData\Dialogs_CSV.cs" />
+    <Compile Include="Assets\Scripts\Common\CsvNames.cs" />
     <Compile Include="Assets\Scripts\Common\EventsNames.cs" />
     <Compile Include="Assets\Scripts\Common\SingletonMono.cs" />
     <Compile Include="Assets\Scripts\Common\SingletonNoMono.cs" />
     <Compile Include="Assets\Scripts\GetCoin.cs" />
+    <Compile Include="Assets\Scripts\Test\TestCsvReading.cs" />
     <Compile Include="Assets\Scripts\UI\GameSceneUILauncher.cs" />
     <Compile Include="Assets\Scripts\UI\Models\ScoreModel.cs" />
     <Compile Include="Assets\Scripts\UI\StartSceneUILauncher.cs" />
