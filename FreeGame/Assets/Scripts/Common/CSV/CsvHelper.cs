@@ -4,15 +4,29 @@ using System.Data;
 using System.IO;
 using System.Reflection;
 using System.Text;
+using UnityEngine;
 
 namespace FreeGame
 {
     public static class CsvHelper
     {
-
-        public static List<T> Csv2List<T>(string csvPath)
+        /// <summary>
+        /// 根据CSV表名，读取数据并返回对应List
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="CsvName"></param>
+        /// <returns></returns>
+        public static List<T> Csv2List<T>(string CsvName)
         {
-            return TableToList<T>(GetDataTable(csvPath));
+            string CsvPath = GetCsvPathByName(CsvName);
+            return TableToList<T>(GetDataTable(CsvPath));
+        }
+
+        private static string GetCsvPathByName(string CsvName)
+        {
+            string path = "GameData\\";
+            DirectoryInfo direction = new DirectoryInfo(path);
+            return direction.Parent + "\\Assets\\Resources\\GameData\\" + CsvName;
         }
 
         /// <summary>

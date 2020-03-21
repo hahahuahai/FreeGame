@@ -8,6 +8,6 @@ namespace FreeGame
     /// </summary>
     public static class CsvNames
     {
-        public readonly static string Dialogs = "Dialogs";
+        public readonly static string Dialogs = "Dialogs.csv";
     }
 }
