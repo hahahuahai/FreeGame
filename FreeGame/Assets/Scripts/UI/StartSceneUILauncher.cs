@@ -10,6 +10,7 @@ namespace FreeGame
 {
     public class StartSceneUILauncher : MonoBehaviour
     {
+        [HideInInspector]
         public GlobalWindowManager windowManager;
         private ApplicationContext applicationContext;
         private void Awake()

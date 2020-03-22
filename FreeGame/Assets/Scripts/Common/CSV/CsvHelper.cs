@@ -8,6 +8,24 @@ using UnityEngine;
 
 namespace FreeGame
 {
+
+    public class CsvReadingHelper:SingletonNoMono<CsvReadingHelper>
+    {
+        public List<Dialogs_CSV> Dialogs_CSV { get; private set; } = new List<Dialogs_CSV>();
+
+        /// <summary>
+        /// 读取所有的csv
+        /// </summary>
+        public override void Init()
+        {
+            base.Init();
+            if (Dialogs_CSV.Count == 0)
+            {
+                Dialogs_CSV = CsvHelper.Csv2List<Dialogs_CSV>(CsvNames.Dialogs);
+            }
+        }
+    }
+
     public static class CsvHelper
     {
         /// <summary>

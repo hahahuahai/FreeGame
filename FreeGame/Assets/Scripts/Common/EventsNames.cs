@@ -12,6 +12,7 @@ namespace FreeGame
 
 
         //Game逻辑相关的事件
-        public readonly static string UI_Score = "UI_Score";
+        public readonly static string UI_Score = "UI_Score";//增加金币数量
+        public readonly static string UI_RentCar = "UI_RentCar";//租车开，对话框文字
     }
 }

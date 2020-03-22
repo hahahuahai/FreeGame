@@ -13,7 +13,6 @@ namespace FreeGame
     {
         private ScoreModel scoreModel;
         private InteractionRequest<int> updateScore;
-        private IMessenger messenger;
         private IDisposable subscription;
         public InteractionRequest<int> UpdateScore
         {

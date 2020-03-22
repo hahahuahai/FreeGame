@@ -1,4 +1,5 @@
-﻿using Loxodon.Framework.Views;
+﻿using Loxodon.Framework.Messaging;
+using Loxodon.Framework.Views;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -28,6 +29,10 @@ namespace FreeGame
             {
                 NPCDialogWindow npcDialogWindow = GameSceneUILauncher.windowManager.Find<NPCDialogWindow>();
                 npcDialogWindow.Create();
+
+                Messenger messenger = Messenger.Default;
+                messenger.Publish(EventsNames.UI_RentCar, 1);//1为Dialog.csv里面的id
+                Debug.Log("事件发了");
                 npcDialogWindow.Show();
             }
           

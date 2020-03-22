@@ -9,6 +9,7 @@ namespace FreeGame
 {
     public class GameSceneUILauncher : MonoBehaviour
     {
+        [HideInInspector]
         static public GlobalWindowManager windowManager;
 
         private ApplicationContext applicationContext;
