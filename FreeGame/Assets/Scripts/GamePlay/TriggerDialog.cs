@@ -32,10 +32,19 @@ namespace FreeGame
 
                 Messenger messenger = Messenger.Default;
                 messenger.Publish(EventsNames.UI_RentCar, 1);//1为Dialog.csv里面的id
-                Debug.Log("事件发了");
                 npcDialogWindow.Show();
             }
-          
+        }
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.gameObject.name == PlayerName)
+            {
+                NPCDialogWindow npcDialogWindow = GameSceneUILauncher.windowManager.Find<NPCDialogWindow>();
+                if (npcDialogWindow.Visibility)
+                {
+                    npcDialogWindow.Hide();
+                }
+            }
         }
     }
 }

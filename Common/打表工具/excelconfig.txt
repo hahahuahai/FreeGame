@@ -10,7 +10,6 @@ langFilePath:-noLang
 -exportCsClass:$all
 -exportCsClassParam_exportPath:E:\_data\selfprogram\FreeGame\FreeGame\Assets\Scripts\Common\CSV\GameData
 -exportCsClassParam_namespace:FreeGame
--exportCsClassParam_using:Loxodon.Framework.Observables
 -autoNameCsvClassParam_classNamePostfix:_CSV
 -exportJsonParam_extension:txt
 isCheckedExportCsv:true

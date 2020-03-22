@@ -13,8 +13,6 @@ namespace FreeGame
     {
         public Text NpcTalkerText;
         public Text TalkContentText;
-        public Button ComfirmButton;
-        public Button CancelButton;
 
         private IMessenger messenger;
         private NPCDialogViewModel npcDialogViewModel;
@@ -33,11 +31,28 @@ namespace FreeGame
         }
 
         private void Dialog_RentCar_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
-        {
-            
+        {            
             NpcTalkerText.text = npcDialogViewModel.Dialog_RentCar.TalkerName;
             TalkContentText.text = npcDialogViewModel.Dialog_RentCar.TalkContent;
-            Debug.Log("已改变值");
+        }
+
+        private void Update()
+        {
+            Judge();
+        }
+
+        private void Judge()
+        {
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                //确认
+                this.Hide();
+            }
+            else if(Input.GetKeyDown(KeyCode.C))
+            {
+                //取消
+                this.Hide();
+            }
         }
     }
 

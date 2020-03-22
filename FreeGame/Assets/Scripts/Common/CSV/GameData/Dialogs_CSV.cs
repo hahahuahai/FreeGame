@@ -1,5 +1,4 @@
 using Loxodon.Framework.Observables;
-using System;
 
 namespace FreeGame
 {
@@ -7,8 +6,7 @@ namespace FreeGame
     {
         private int id;
         private string talkerName;
-        private string talkerContent;
-
+        private string talkContent;
         public int ID
         {
             get { return this.id; }
@@ -21,8 +19,8 @@ namespace FreeGame
         }
         public string TalkContent
         {
-            get { return this.talkerContent; }
-            set { this.Set<string>(ref this.talkerContent, value, "TalkContent"); }
+            get { return this.talkContent; }
+            set { this.Set<string>(ref this.talkContent, value, "TalkContent"); }
         }
     }
 }
