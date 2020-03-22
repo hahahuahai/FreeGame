@@ -467,6 +467,7 @@
     <Compile Include="Assets\Scripts\GamePlay\TriggerDialog.cs" />
     <Compile Include="Assets\Scripts\Managers\DialogManager.cs" />
     <Compile Include="Assets\Scripts\Test\TestCsvReading.cs" />
+    <Compile Include="Assets\Scripts\Test\TestPreference.cs" />
     <Compile Include="Assets\Scripts\UI\GameSceneUILauncher.cs" />
     <Compile Include="Assets\Scripts\UI\Models\ScoreModel.cs" />
     <Compile Include="Assets\Scripts\UI\StartSceneUILauncher.cs" />
