@@ -14,7 +14,7 @@ namespace FreeGame
         public Text NpcTalkerText;
         public Text TalkContentText;
 
-        private IMessenger messenger;
+        private Messenger messenger;
         private NPCDialogViewModel npcDialogViewModel;
 
         protected override void OnCreate(IBundle bundle)
@@ -45,8 +45,17 @@ namespace FreeGame
         {
             if (Input.GetKeyDown(KeyCode.F))
             {
+
+                Debug.Log("发送开车模式事件");
                 //确认
                 this.Hide();
+                GameObject CarPlayer = GameObject.Find(Consts.CarPlayerPrefab);
+                GameObject CarPlayerChild = CarPlayer.transform.Find(Consts.CarPlayer).gameObject;
+                CarPlayerChild.SetActive(true);
+
+                GameObject Player = GameObject.Find(Consts.PlayerPrefab);
+                GameObject PlayerChild = Player.transform.Find(Consts.Player).gameObject;
+                PlayerChild.SetActive(false);
             }
             else if(Input.GetKeyDown(KeyCode.C))
             {

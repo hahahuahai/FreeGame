@@ -76,8 +76,8 @@ MonoBehaviour:
   windowType: 2
   NpcTalkerText: {fileID: 5295851627771426514}
   TalkContentText: {fileID: 5295851628939804889}
-  ComfirmButton: {fileID: 0}
-  CancelButton: {fileID: 0}
+  Player: {fileID: 0}
+  CarPlayer: {fileID: 0}
 --- !u!1 &5295851627599283188
 GameObject:
   m_ObjectHideFlags: 0
