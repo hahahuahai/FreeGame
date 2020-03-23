@@ -11,7 +11,7 @@ namespace FreeGame
 {
     public class GameMainViewModel : ViewModelBase
     {
-        private ScoreModel scoreModel;
+        private PlayerModel scoreModel;
         private InteractionRequest<int> updateScore;
         private IDisposable subscription;
         public InteractionRequest<int> UpdateScore
@@ -19,7 +19,7 @@ namespace FreeGame
             get { return this.updateScore; }
         }
 
-        public ScoreModel ScoreModel
+        public PlayerModel ScoreModel
         {
             get { return this.scoreModel; }
         }
@@ -27,7 +27,7 @@ namespace FreeGame
         public GameMainViewModel(IMessenger messenger)
         {
             Messenger = messenger;
-            scoreModel = new ScoreModel();
+            scoreModel = new PlayerModel();
             this.subscription = Messenger.Subscribe<int>(EventsNames.UI_Score, changeScore);
             //this.updateScore = new InteractionRequest<int>(this);
             scoreModel.Score = 0;

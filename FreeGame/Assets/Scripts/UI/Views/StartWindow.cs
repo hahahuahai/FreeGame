@@ -11,6 +11,7 @@ namespace FreeGame
     public class StartWindow : Window
     {
         public Button startButton;
+        public Button loadButton;
         public Button quitButton;
 
         private StartViewModel startViewModel;

@@ -15,8 +15,6 @@ namespace FreeGame
         private ApplicationContext applicationContext;
         private void Awake()
         {
-
-
             applicationContext = Context.GetApplicationContext();
             IServiceContainer container = applicationContext.GetContainer();
             BindingServiceBundle bundle = new BindingServiceBundle(applicationContext.GetContainer());

@@ -469,7 +469,9 @@
     <Compile Include="Assets\Scripts\Test\TestCsvReading.cs" />
     <Compile Include="Assets\Scripts\Test\TestPreference.cs" />
     <Compile Include="Assets\Scripts\UI\GameSceneUILauncher.cs" />
-    <Compile Include="Assets\Scripts\UI\Models\ScoreModel.cs" />
+    <Compile Include="Assets\Scripts\UI\Models\PlayerModel.cs" />
+    <Compile Include="Assets\Scripts\UI\Services\IPlayerService.cs" />
+    <Compile Include="Assets\Scripts\UI\Services\PlayerService.cs" />
     <Compile Include="Assets\Scripts\UI\StartSceneUILauncher.cs" />
     <Compile Include="Assets\Scripts\UI\ViewModels\GameMainViewModel.cs" />
     <Compile Include="Assets\Scripts\UI\ViewModels\NPCDialogViewModel.cs" />
