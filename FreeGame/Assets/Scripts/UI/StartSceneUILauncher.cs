@@ -20,7 +20,9 @@ namespace FreeGame
             BindingServiceBundle bundle = new BindingServiceBundle(applicationContext.GetContainer());
             bundle.Start();
 
-            container.Register<IUIViewLocator>(new DefaultUIViewLocator());           
+            container.Register<IUIViewLocator>(new DefaultUIViewLocator());
+
+            container.Register<IPlayerService>(new PlayerService());
 
         }
         // Start is called before the first frame update

@@ -7,8 +7,12 @@ namespace FreeGame
 {
     public interface IPlayerService 
     {
-        void SetPlayerData(PlayerModel playerModel);
+        void SetPlayerModel(PlayerModel playerModel);
+        void SetPlayerScore(int score);
+        void SetPlayerPosition(Vector3 position);
+        void SetPlayerRotation(Vector3 rotation);
         PlayerModel GetPlayerData();
+        void ClearPlayerData();
     }
 
 }

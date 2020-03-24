@@ -461,10 +461,9 @@
     <Compile Include="Assets\Scripts\Common\EventsNames.cs" />
     <Compile Include="Assets\Scripts\Common\SingletonMono.cs" />
     <Compile Include="Assets\Scripts\Common\SingletonNoMono.cs" />
-    <Compile Include="Assets\Scripts\GamePlay\CarPlayerMode.cs" />
-    <Compile Include="Assets\Scripts\GamePlay\GetCoin.cs" />
-    <Compile Include="Assets\Scripts\GamePlay\PlayerMode.cs" />
-    <Compile Include="Assets\Scripts\GamePlay\TriggerDialog.cs" />
+    <Compile Include="Assets\Scripts\GamePlay\Coins\GetCoin.cs" />
+    <Compile Include="Assets\Scripts\GamePlay\NPC\TriggerDialog.cs" />
+    <Compile Include="Assets\Scripts\GamePlay\Player\DealPlayerData.cs" />
     <Compile Include="Assets\Scripts\Managers\DialogManager.cs" />
     <Compile Include="Assets\Scripts\Test\TestCsvReading.cs" />
     <Compile Include="Assets\Scripts\Test\TestPreference.cs" />
