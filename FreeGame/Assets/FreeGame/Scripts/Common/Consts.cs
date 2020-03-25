@@ -15,5 +15,8 @@ namespace FreeGame
 
         public readonly static string PlayerTag = "Player";//人形玩家tag名
         public readonly static string CarPlayerTag = "CarPlayer";//人形玩家tag名
+
+        //路径
+        public readonly static string CsvPath = "\\Assets\\FreeGame\\Resources\\GameData\\";
     }
 }

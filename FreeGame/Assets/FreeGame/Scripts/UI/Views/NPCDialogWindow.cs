@@ -31,7 +31,7 @@ namespace FreeGame
         }
 
         private void Dialog_RentCar_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
-        {            
+        {
             NpcTalkerText.text = npcDialogViewModel.Dialog_RentCar.TalkerName;
             TalkContentText.text = npcDialogViewModel.Dialog_RentCar.TalkContent;
         }
@@ -57,7 +57,7 @@ namespace FreeGame
                 GameObject PlayerChild = Player.transform.Find(Consts.Player).gameObject;
                 PlayerChild.SetActive(false);
             }
-            else if(Input.GetKeyDown(KeyCode.C))
+            else if (Input.GetKeyDown(KeyCode.C))
             {
                 //取消
                 this.Hide();

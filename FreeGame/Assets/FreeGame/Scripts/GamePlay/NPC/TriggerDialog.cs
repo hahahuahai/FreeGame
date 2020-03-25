@@ -29,9 +29,10 @@ namespace FreeGame
             {
                 NPCDialogWindow npcDialogWindow = GameSceneUILauncher.windowManager.Find<NPCDialogWindow>();
                 npcDialogWindow.Create();
-
+                
                 Messenger messenger = Messenger.Default;
                 messenger.Publish(EventsNames.UI_RentCar, 1);//1为Dialog.csv里面的id
+                Debug.Log("EventsNames.UI_RentCar已发送");
                 npcDialogWindow.Show();
             }
         }

@@ -9,7 +9,7 @@ using UnityEngine;
 namespace FreeGame
 {
 
-    public class CsvReadingHelper:SingletonNoMono<CsvReadingHelper>
+    public class CsvReadingHelper : SingletonNoMono<CsvReadingHelper>
     {
         public List<Dialogs_CSV> Dialogs_CSV { get; private set; } = new List<Dialogs_CSV>();
 
@@ -44,7 +44,7 @@ namespace FreeGame
         {
             string path = "GameData\\";
             DirectoryInfo direction = new DirectoryInfo(path);
-            return direction.Parent + "\\Assets\\Resources\\GameData\\" + CsvName;
+            return direction.Parent + Consts.CsvPath + CsvName;
         }
 
         /// <summary>
