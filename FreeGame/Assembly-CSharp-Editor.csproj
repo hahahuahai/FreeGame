@@ -71,6 +71,9 @@
     <Compile Include="Assets\LoxodonFramework\Editor\Localizations\LocalizationSourceEditor.cs" />
     <Compile Include="Assets\LoxodonFramework\Editor\Views\VariableArrayDrawer.cs" />
     <Compile Include="Assets\LoxodonFramework\Editor\Views\VariableDrawer.cs" />
+    <Compile Include="Assets\Scripts\Editor\GraphOverlayEditor.cs" />
+    <Compile Include="Assets\Scripts\Editor\VehicleSkeletonWizard.cs" />
+    <None Include="Assets\Scripts\Editor\PackageManagerAssembly\PackageImportList.txt" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
@@ -343,6 +346,9 @@
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
       <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/PackageCache/com.unity.connect.share@1.0.9-preview/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="PackageManagerAssembly">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Assets/Scripts/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
