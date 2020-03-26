@@ -80,6 +80,7 @@
     <Compile Include="Assets\FreeGame\Scripts\UI\Services\IPlayerService.cs" />
     <Compile Include="Assets\FreeGame\Scripts\UI\Services\PlayerService.cs" />
     <Compile Include="Assets\FreeGame\Scripts\UI\StartSceneUILauncher.cs" />
+    <Compile Include="Assets\FreeGame\Scripts\UI\ViewModels\CommonViewModels\ProgressBar.cs" />
     <Compile Include="Assets\FreeGame\Scripts\UI\ViewModels\GameMainViewModel.cs" />
     <Compile Include="Assets\FreeGame\Scripts\UI\ViewModels\NPCDialogViewModel.cs" />
     <Compile Include="Assets\FreeGame\Scripts\UI\ViewModels\StartViewModel.cs" />

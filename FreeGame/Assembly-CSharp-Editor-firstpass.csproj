@@ -338,11 +338,11 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="System.IO.Compression.FileSystem">
-      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/PackageCache/com.unity.connect.share@1.0.9-preview/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
-    </Reference>
     <Reference Include="PackageManagerAssembly">
       <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Assets/Scripts/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/PackageCache/com.unity.connect.share@1.0.9-preview/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>E:/_data/selfprogram/FreeGame/FreeGame/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
