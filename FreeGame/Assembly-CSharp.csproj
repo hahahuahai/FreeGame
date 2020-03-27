@@ -71,6 +71,8 @@
     <Compile Include="Assets\FreeGame\Scripts\Common\SingletonNoMono.cs" />
     <Compile Include="Assets\FreeGame\Scripts\GamePlay\Coins\GetCoin.cs" />
     <Compile Include="Assets\FreeGame\Scripts\GamePlay\NPC\TriggerDialog.cs" />
+    <Compile Include="Assets\FreeGame\Scripts\GamePlay\Player\AntiDieCarPlayer.cs" />
+    <Compile Include="Assets\FreeGame\Scripts\GamePlay\Player\AntiDiePlayer.cs" />
     <Compile Include="Assets\FreeGame\Scripts\GamePlay\Player\DealPlayerData.cs" />
     <Compile Include="Assets\FreeGame\Scripts\Managers\DialogManager.cs" />
     <Compile Include="Assets\FreeGame\Scripts\Test\TestCsvReading.cs" />

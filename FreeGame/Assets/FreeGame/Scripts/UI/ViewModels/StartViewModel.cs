@@ -42,7 +42,7 @@ namespace FreeGame
                 this.startCommand.Enabled = false;
 
                 playerService.ClearPlayerData();//清空玩家数据
-                playerService.SetPlayerPosition(new Vector3(-30, 0, 16.6f));//设置玩家默认出生地
+                playerService.SetPlayerPosition(Consts.PlayerStartingPosition);//设置玩家默认出生地
 
                 LoadGameScene();
             });

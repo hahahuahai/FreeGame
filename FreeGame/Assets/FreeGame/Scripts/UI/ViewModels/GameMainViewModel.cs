@@ -1,4 +1,5 @@
-﻿using Loxodon.Framework.Contexts;
+﻿using Loxodon.Framework.Commands;
+using Loxodon.Framework.Contexts;
 using Loxodon.Framework.Interactivity;
 using Loxodon.Framework.Messaging;
 using Loxodon.Framework.Services;
@@ -17,6 +18,11 @@ namespace FreeGame
         private InteractionRequest<int> updateScore;
         private IDisposable subscription;
         private IPlayerService playerService;
+        private SimpleCommand antiDieCommand;
+        public ICommand AntiDieCommand
+        {
+            get { return this.antiDieCommand; }
+        }
         public InteractionRequest<int> UpdateScore
         {
             get { return this.updateScore; }
@@ -36,6 +42,14 @@ namespace FreeGame
             Messenger = messenger;
             scoreModel = new PlayerModel();
             this.subscription = Messenger.Subscribe<int>(EventsNames.UI_Score, changeScore);
+
+            this.antiDieCommand = new SimpleCommand(() =>
+            {
+                Debug.Log("防卡死事件发送。");
+                //发送防卡死事件，将player坐标改为初始地点。
+                Messenger.Publish(EventsNames.UI_AntiDie, 1);
+            });
+
             //this.updateScore = new InteractionRequest<int>(this);
             scoreModel.Score = playerModel.Score;
         }

@@ -16,5 +16,6 @@ namespace FreeGame
         public readonly static string UI_RentCar = "UI_RentCar";//租车开，对话框文字
         public readonly static string UI_CarPlayerMode = "UI_CarPlayerMode";//开车模式
         public readonly static string UI_PlayerMode = "UI_PlayerMode";//人型模式
+        public readonly static string UI_AntiDie = "UI_AntiDie";//防卡死
     }
 }

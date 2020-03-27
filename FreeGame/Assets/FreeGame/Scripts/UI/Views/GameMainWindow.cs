@@ -17,6 +17,7 @@ namespace FreeGame
     public class GameMainWindow : Window
     {
         public Text scoreText;
+        public Text DescriptionText;
 
         private int score = 0;
 
@@ -38,6 +39,8 @@ namespace FreeGame
             scoreText.text = "金钱:" + this.gameMainViewModel.ScoreModel.Score;
 
             BindingSet<GameMainWindow, GameMainViewModel> bindingSet = this.CreateBindingSet(gameMainViewModel);
+
+            bindingSet.Build();
         }
 
         private void ScoreModel_PropertyChanged(object sender, PropertyChangedEventArgs e)
